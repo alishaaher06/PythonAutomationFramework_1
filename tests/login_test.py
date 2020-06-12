@@ -25,7 +25,7 @@ class TestLogin():
             homepage.click_welcome()
             homepage.click_logout()
             x = driver.title
-            assert x == "abc"
+            assert x == "OrangeHRM"
 
         except AssertionError as error:
             print("Assertion error occurred")
@@ -54,7 +54,4 @@ class TestLogin():
             print("No exceptions occurred")
 
         finally:
-            print("I am inside
-11:13 PM	PyCharm 2019.3.5 available
-					Update...
- finally block")
+            print("I am inside  finally block")
